@@ -1,0 +1,208 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box; 
+}
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.container-fluid{
+	padding: 0;
+}
+
+
+.navbar-default{
+	margin:0;
+  border-radius: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+     background-color: transparent;
+    border: 0px;
+    button {
+    	    background-color: transparent;
+    color: white;
+    padding: 8%;
+    border: solid 2px;
+    border-radius: 7px;
+    }
+}
+.navbar-default .navbar-nav > li > a{
+	color: white;
+}
+
+.navbar-default.scroll{
+  border: transparent;
+}
+
+.circulo-a img{
+	width: 85px;
+	height: 85px;
+	padding: 5%;
+}
+
+.circulo-b img{
+	width: 40px;
+	height: 40px;
+	margin: 2% ;
+}
+
+
+.navbar-header{
+	float:none;
+}
+
+.nav li{
+	list-style: none;
+	font-family: "JosefinSlab-Regular";
+	font-size: 21px;
+	padding: 0 2%;
+	a{
+		padding: 0%;
+	}
+}
+
+.navbar-nav{
+	text-align: center;
+	float: none;
+	li {
+     float: none;
+     display: inline-block;
+     @media screen and (max-width: #{$screen-phone}) {
+     	display: block;
+     }
+	}
+}
+
+/* HOME */
+
+.home {
+	background-image: url(../img/home.jpg);
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.navegacion {
+	background-color: white;
+	z-index: 10000;
+	.navbar-nav{
+		li>a {
+			color: black;
+		}
+		button{
+			background-color: #FFC55C;
+		}
+		li > a:hover {
+			color: black !important;
+		}
+	}
+	
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: white;
+}
+
+.text_green {
+	    color: #3c763d;
+    font-size: 20px;
+    padding: 3%;
+}
+.cuadro_gray {
+	background-color: #EDEDF3;
+    padding: 10%;
+    text-align: center;
+    min-height: 35%;
+    h4 {
+    	 font-weight: bold;
+    	     font-size: 22px;
+    }
+}
+.pdt_5 {
+	padding-top: 5%;
+    padding-bottom: 5%;
+}
+.hacer {
+	    background-color: #DAF1DA;
+	        padding: 5%;
+	img {
+		width: 100%;
+	}
+}
+.titulo_hacer {
+	padding-top: 13%;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 5%;
+}
+.titulo {
+	font-size: 25px;
+    text-align: center;
+    padding-top: 10%;
+}
+.funcion {
+	padding-bottom: 10%;
+}
+.equipo {
+	    text-align: center;
+	    img {
+	    	    width: 100%;
+
+	    }
+}
+.hacer_text2 {
+	    font-size: 19px;
+    padding-top: 2%;
+}
+.text_equipo {
+	    font-size: 20px;
+    padding: 5%;
+}
+.text_equipo2 {
+	    background-color: aliceblue;
+    padding: 5%;
+    text-align: justify;
+}
+.mgt {
+	    margin-top: 10%;
+}
+.nombre {
+	    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 2%;
+}
+.cargo {
+	    font-size: 19px;
+    color: #6EAA6F;
+    padding-bottom: 1%;
+}
+.registrate {
+	text-align: center;
+        background-color: #D8E7FE;
+    padding: 5%;
+    padding-top: 0px;
+	input{
+		    margin: 2%;
+		        width: 20%;
+    padding: 1%;
+	}
+	button{
+		background-color: transparent;
+    padding: 1%;
+    border-radius: 7px;
+    border: solid 1px white;
+	}
+}
+.registro {
+	    padding: 3%;
+    font-size: 20px;
+}
+footer {
+	    padding: 1%;
+    text-align: center;
+    font-size: 17px;
+    background-color: #F8F5F5;
+}
